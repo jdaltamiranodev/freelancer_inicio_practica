@@ -135,7 +135,7 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
 }
-.contenido-hero h1, 
+.contenido-hero h2, 
 .contenido-hero p {
     color: var(--blanco);
 }
@@ -145,8 +145,62 @@ h1, h2, h3 {
     align-items: center;
 }
 
-@media (min-width: 480px) {
-    
+/* Servicios */
+
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+    }
 }
 
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.servicio h3 {
+    color: var(--secundario);
+    font-weight: normal;
+}
+
+.servicio p {
+    line-height: 2;
+    text-align: center;
+}
+
+.servicio .iconos {
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    /* Muestro diferentes formas de definir columnas y filas */
+
+    /* grid-template-columns: 33.3% 33.3% 33.3%; */ /* forma de definir columnas que cada una ocupe un espacio de 33.3% del 100% del ancho total de la pagina. */
+
+    /* grid-template-columns: 1fr 1fr 1fr; */ /* forma de definir columnas que cada una ocupe un espacio de 33.3% del 100% del ancho total de la pagina. */
+
+    /* grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 800px; */ /* Forma larga de definir filas y columnas */
+
+    /* grid: 200px 800px / 300px 300px 300px */ /* Forma corta de definir filas y columnas */
+
+/* Contacto */
+
+.formulario {
+    background-color: var(--gris);
+    width: min( 60rem, 100%); /* Utilizar el valor más pequeño */
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset {
+    border: none;
+}
