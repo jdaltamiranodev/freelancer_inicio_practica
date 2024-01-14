@@ -1,6 +1,6 @@
 # Sitio Web Freelancer
 
-## Puede ver el sitio en [Netlify](https://freelancer-jose-david-altamirano-mc.netlify.app/)
+## Puede ver el sitio Freelancer desplegado en [Netlify](https://freelancer-jose-david-altamirano-mc.netlify.app/)
 
 ## Tabla de contenido
 
@@ -50,7 +50,7 @@ https://github.com/jdaltamiranodev/freelancer_inicio_practica.git
 ![Imagen git clone](img/captura_ejemplo_clone.png) 
 
 ```
-$ git clone (https://github.com/jdaltamiranodev/freelancer_inicio_practica.git)
+$ git clone https://github.com/jdaltamiranodev/freelancer_inicio_practica.git
 ```
 * Opcional: Puede copiar y pegar la linea anterior en su terminal en la carpeta elegida para clonar el proyecto.
 
