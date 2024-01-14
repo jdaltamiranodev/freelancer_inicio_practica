@@ -113,32 +113,35 @@
             <h2>Contacto</h2>
             <form class="formulario" action="">
                 <fieldset>
-                    <legend> Contactanos llenando todos los campos</legend>
+                    <legend> Contactános llenando todos los campos</legend>
 
-                    <div>
-                        <label for="">Nombre</label>
-                        <input type="text" placeholder="Tu Nombre">
-                    </div>
+                    <div class="contenedor-campos">
 
-                    <div>
-                        <label for="">Teléfono</label>
-                        <input type="text" placeholder="Tu Teléfono">
-                    </div>
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
 
-                    <div>
-                        <label for="">Correo</label>
-                        <input type="text" placeholder="Tu Email">
-                    </div>
+                        <div class="campo">
+                            <label for="">Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+
+                        <div class="campo"> <!-- No voy a usar correo pero lo dejo indicado -->
+                            <label for="">Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
+                        
+
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                        </div>  
+                    </div> <!-- .contenedor-campos -->
                     
 
-                    <div>
-                        <label for="">Mensaje</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>  
-                    
-
-                    <div>
-                        <input type="submit" value="Enviar">
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
                     </div>
                     
                 </fieldset>
@@ -146,7 +149,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados. José David Altamirano</p>
     </footer>
    
