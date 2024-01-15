@@ -1,6 +1,8 @@
 # Sitio Web Freelancer
 
-## Puede ver el sitio Freelancer desplegado en [Netlify](https://freelancer-jose-david-altamirano-mc.netlify.app/)
+## Puede ver el sitio Freelancer desplegado en Netlify [Freelancer](https://freelancer-jose-david-altamirano-mc.netlify.app/)
+
+![Imagen git clone](img/MacBook_Pro_home.jpeg)
 
 ## Tabla de contenido
 
@@ -30,6 +32,7 @@ Finalizado.
 * HTML5
 * CSS3
 * Mac OS
+* Terminal OS
 * Git
 * GitHub
 * Netlify
@@ -68,6 +71,7 @@ $ git clone https://github.com/jdaltamiranodev/freelancer_inicio_practica.git
 * Responsive Design
 * Responsively
 * Mac OS
+* Terminal OS
 * Git
 * GitHub
 * Netlify
